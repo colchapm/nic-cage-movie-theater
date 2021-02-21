@@ -10,11 +10,12 @@
 </head>
 
 <body>
-	<h1>Welcome To The Nicolas Cage Movie Theatre</h1>
+	<h2 class="title">Welcome To The Nicolas Cage Movie Theatre</h2>
+	<h6 class="title">A small operation created by those who believe Nicolas Kim Coppola is the greatest blessing bestowed upon us by The Powers That Be</h6>
   <br>
   <div class="container">
     <form id="ticketForm">
-			<h4>Select Movie</h4>
+			<h5>Select Movie</h5>
 			<select class="form-control" id="movie-name">
 				<option disables selected value> -- select an option --</option>
 				<option>Con Air</option>
@@ -23,24 +24,33 @@
 				<option>National Treasure</option>
 				<option>The Rock</option>
 			</select>
-      <h4>Select Time (please enter in military time e.g. 3:00 PM, enter 15)</h4>
+			<br>
+      <h5>Select Time (please enter in military time e.g. 3:00 PM, enter 15)</h5>
       <select class="form-control" id="movie-time">
 				<option disables selected value> -- select an option --</option>
         <option>11</option>
         <option>15</option>
         <option>19</option>
-      </select>
-      <h4>Age Group</h4>
+			</select>
+			<br>
+      <h5>Age Group</h5>
       <select class="form-control" id="age-group">
 				<option disables selected value> -- select an option --</option>
         <option>Child (ages 15 & Under)</option>
         <option>Adult (ages 16-61)</option>
         <option>Senior (ages 62 & Over)</option>
-      </select>
-      <button type="submit" class="btn">Calculate Ticket Price</button>
+			</select>
+			<br>
+      <button type="submit" class="button">Calculate Ticket Price</button>
 		</form>
-		<div id="output">
+		<div class="checkout">
+			<div id="output">
+			</div>
+			<img src="img/god.gif" alt="a gif of Nic Cage and his luscious flow" class="end-image">
+			<br>
+			<p class="title">Cherish these next couple hours.</p>
 		</div>
+
   </div>
 
 

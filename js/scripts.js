@@ -30,6 +30,8 @@ $(document).ready(function() {
     const age = $("#age-group").val();
     let newTicket = new Ticket(name, time, age);
     const price = newTicket.ticketTotal();
-    $("#output").text("$" + price)
+    $("#ticketForm").hide();
+    $("#output").text("YOUR TOTAL IS $" + price)
+    $(".checkout").show();
   })
 })
